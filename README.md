@@ -24,8 +24,11 @@ Before running the project, ensure you have the following dependencies installed
 
 - Python 3.x
 - OpenCV (`opencv-python`)
+- PIL (`Pillow`)
 - NumPy (`numpy`)
 - YOLOv4 Pre-Trained Weights
+
+---
 
 ## How It Works
 
@@ -34,15 +37,26 @@ Before running the project, ensure you have the following dependencies installed
 - Tracking: The tracked ball's movement is visualized in the output video by drawing bounding boxes on the ball and arrow show the ball movment as it moves from frame to frame.
 - Output: A video is generated showing the tracking results, where the ball's position is marked with bounding boxes and arrow show its movement.
 
+---
+
 ## Demo
 
-https://github.com/user-attachments/assets/28c5e5da-22fe-4a8c-8393-bc31b41294ce
+
+https://github.com/user-attachments/assets/a73bdd55-a60c-416b-b8cd-ba6d10bee376
 
 
+---
+
+## APP
+![image](https://github.com/user-attachments/assets/c3a26783-613a-48c3-ae7f-e81b648a6ed9)
+
+---
 
 ## Contributing
 
 Feel free to contribute to this project by submitting issues, improvements, or feature requests. If you have any enhancements or bug fixes, please submit a pull request.
+
+---
 
 ## Acknowledgements
 - YOLOv4 for object detection.
