@@ -90,4 +90,5 @@ Feel free to contribute to this project by submitting issues, improvements, or f
 ## Acknowledgements
 - YOLOv4 for object detection.
 - OpenCV for video processing.
+- Pillow (PIL) for image manipulation.
 - Python community for supporting open-source development.
