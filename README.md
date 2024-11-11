@@ -26,9 +26,38 @@ Before running the project, ensure you have the following dependencies installed
 - OpenCV (`opencv-python`)
 - PIL (`Pillow`)
 - NumPy (`numpy`)
-- YOLOv4 Pre-Trained Weights
+- [YOLOv4 Pre-Trained Weights](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights).
+
+  You can install the required libraries using the following command:
+
+```bash
+pip install -r requirements.txt
+```
 
 ---
+## Setup and Usage
+1. Clone the repository:
+     ```bash
+     git clone https://github.com/yourusername/ball-tracking-video-yolov4.git
+     cd ball-tracking-video-yolov4
+     ```
+2. Download YOLOv4 Pre-Trained Weights:
+     You can download the YOLOv4 weights from the official [YOLO repo](https://github.com/AlexeyAB/darknet) or from this direct [link](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights).
+     Place the yolov4.weights file in the model directory of the project.
+3. Run the Ball Tracking Script:
+   Once the setup is complete, run the following Python script to start ball tracking:
+
+```bash
+python track_ball.py
+
+```
+
+4. Then go to Web Application and use it with your input video.
+
+
+---
+
+
 
 ## How It Works
 
